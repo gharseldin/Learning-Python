@@ -1,0 +1,10 @@
+A = input()
+B = input()
+C = input()
+a_float = float(A)
+b_float = float(B)
+c_float = float(C)
+MEDIA = a_float * 2 + b_float * 3 + c_float * 5
+MEDIA /= 10
+result = "{:.1f}".format(MEDIA)
+print("MEDIA = " + result)
